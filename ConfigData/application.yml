@@ -4,22 +4,22 @@ eureka:
       defaultZone: http://eureka-primary:8011/eureka/,http://eureka-primary:8012/eureka/,http://eureka-primary:8013/eureka/
 ---
 spring:
-profiles: subject
+  profiles: subject
 words: Yo,Tu,El,Ella,Esto
 
 ---
 spring:
-profiles: verb
+  profiles: verb
 words: corrió, sabía, tenía, vió, compró
 ---
 spring:
-profiles: article
+  profiles: article
 words: un,una,la
 ---
 spring:
-profiles: adjective
+  profiles: adjective
 words: razonable, permeable, sospechoso, ordinario, improbable
 ---
 spring:
-profiles: noun
+  profiles: noun
 words: barco, libro, voto, asiento, mochila, partición
