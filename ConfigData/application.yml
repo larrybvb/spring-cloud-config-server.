@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-primary:8011/eureka/,http://eureka-primary:8012/eureka/,http://eureka-primary:8013/eureka/
+      defaultZone: http://eureka-primary:8881/eureka/,http://eureka-primary:8882/eureka/
 ---
 spring:
   profiles: subject
