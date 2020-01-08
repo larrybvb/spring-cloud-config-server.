@@ -4,12 +4,12 @@ eureka:
       defaultZone: http://eureka-primary:8881/eureka/,http://eureka-secondary:8882/eureka/
 ---
 spring:
-  profiles: saleorder
+  profiles: ms-saleorder
 words: Yo,Tu,El,Ella,Esto
 
 ---
 spring:
-  profiles: shipping
+  profiles: ms-shipping
 words: corrió, sabía, tenía, vió, compró
 ---
 spring:
